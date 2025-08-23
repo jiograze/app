@@ -1,4 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyd
+*.pyo
+*.pth
+*.pyz
+*.pyzw
 
+# Build and distribution
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+build/
 
-#Ignore vscode AI rules
-.github\instructions\codacy.instructions.md
+# Virtual Environment
+.venv
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and databases
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Project specific
+.specstory/
+temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local development
+instance/
+.webassets-cache
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+*.egg-info/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore vscode AI rules
+.github/instructions/codacy.instructions.md

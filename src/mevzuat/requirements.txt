@@ -1,0 +1,8 @@
+# Core dependencies
+-r requirements/base.txt
+
+# Development dependencies
+-r requirements/dev.txt
+
+# Test dependencies
+-r requirements/test.txt

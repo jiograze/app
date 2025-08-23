@@ -1,0 +1,33 @@
+# Development configuration
+app:
+  name: Mevzuat Yönetim Sistemi
+  environment: development
+  debug: true
+  secret_key: your-secret-key-here
+  host: 0.0.0.0
+  port: 5000
+
+database:
+  uri: sqlite:///mevzuat.db
+  echo: true
+
+storage:
+  upload_folder: /home/altay/Masaüstü/mevzuat/uploads
+  allowed_extensions: ['pdf', 'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'txt']
+  max_content_length: 16 * 1024 * 1024  # 16MB
+
+ml:
+  model_path: models/bert-base-turkish-cased
+  batch_size: 16
+  device: cpu  # or cuda if available
+
+search:
+  enable_full_text_search: true
+  vector_dimension: 768
+  index_path: data/search_index
+
+logging:
+  level: DEBUG
+  file: logs/app.log
+  max_size: 10  # MB
+  backup_count: 5

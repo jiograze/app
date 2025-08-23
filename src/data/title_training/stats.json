@@ -1,0 +1,9 @@
+{
+  "total_examples": 52,
+  "train_size": 46,
+  "val_size": 6,
+  "train_positives": 1,
+  "train_negatives": 45,
+  "val_positives": 1,
+  "val_negatives": 5
+}

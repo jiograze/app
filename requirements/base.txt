@@ -1,0 +1,82 @@
+# Core Dependencies
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.5
+Flask-Login==0.6.2
+Flask-CORS==4.0.0
+SQLAlchemy==2.0.20
+Werkzeug==2.3.7
+python-dotenv==1.0.0
+gunicorn==23.0.0  # Updated for CVE-2024-1135, CVE-2024-6827
+
+# Database
+psycopg2-binary==2.9.7  # PostgreSQL adapter
+SQLAlchemy-Utils==0.41.1
+Alembic==1.12.1
+
+# API and Web
+marshmallow==3.20.1
+marshmallow-sqlalchemy==1.0.0
+apispec==6.3.1
+apispec-webframeworks==1.2.0  # Updated to a compatible version
+
+# Authentication and Security
+PyJWT==2.8.0
+passlib==1.7.4
+python-keycloak==3.5.0
+
+# File Processing
+PyMuPDF==1.23.5  # PDF processing
+python-magic==0.4.27  # File type detection
+python-docx==1.0.1  # Word documents
+python-pptx==0.6.23  # PowerPoint documents
+openpyxl==3.1.2  # Excel files
+pdfplumber==0.10.2  # PDF text extraction
+
+# NLP and Text Processing
+nltk==3.9.0  # Updated for CVE-2024-39705
+
+# Machine Learning
+numpy==1.26.0
+pandas==2.1.1
+scikit-learn==1.3.0
+scipy==1.11.3
+joblib==1.3.2
+
+# Data Visualization
+matplotlib==3.8.0
+seaborn==0.13.0
+plotly==5.17.0
+
+# Async and Task Queue
+celery==5.3.4
+redis==5.0.1
+gevent==23.9.0  # Updated for CVE-2023-41419
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+tqdm==4.66.1
+requests==2.32.4  # Updated for CVE-2024-35195, CVE-2024-47081
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Development
+black==24.3.0  # Updated for CVE-2024-21503
+flake8==6.1.0
+mypy==1.5.1
+pytest==7.4.2
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-xdist==3.5.0
+coverage==7.3.2
+
+# Documentation
+Sphinx==7.2.6
+sphinx-rtd-theme==1.3.0
+sphinx-autodoc-typehints==1.25.1
+
+# Testing
+factory-boy==3.3.0
+Faker==19.6.1
+pytest-factoryboy==2.5.1

@@ -1,0 +1,37 @@
+# Core NLP and Text Processing
+spacy>=3.5.0
+spacy-transformers>=1.2.0
+
+# Turkish Language Processing
+sentencepiece>=0.1.96
+protobuf>=3.20.0
+
+# Legal Text Processing
+legal-nlp>=0.1.0
+
+# We'll download the Turkish model separately
+
+# Text Processing Utilities
+python-docx>=0.8.11
+PyPDF2>=2.10.0
+pdfplumber>=0.7.0
+python-pptx>=0.6.21
+
+# Machine Learning and NLP
+scikit-learn>=1.0.2
+scipy>=1.7.3
+numpy>=1.21.5
+pandas>=1.4.4
+
+# Visualization
+matplotlib>=3.5.2
+seaborn>=0.11.2
+
+# Utilities
+tqdm>=4.64.0
+python-dateutil>=2.8.2
+pytz>=2022.1
+
+# Testing
+pytest>=7.1.2
+pytest-cov>=3.0.0

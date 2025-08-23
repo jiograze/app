@@ -1,0 +1,1 @@
+/home/altay/Masaüstü/mevzuat/src/mevzuat/core/search.py

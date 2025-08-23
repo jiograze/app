@@ -37,4 +37,18 @@
 - If the user accepts, run the `codacy_setup_repository` tool
 - Do not ever try to run the `codacy_setup_repository` tool on your own
 - After setup, immediately retry the action that failed (only retry once)
----
+---Analiz Sonucu Raporlama
+
+Her codacy_cli_analyze çalıştırıldıktan sonra:
+
+Bulunan vulnerability sayısını kaydet
+Kritik seviye (Critical/High/Medium/Low) dağılımını rapor et
+Etkilenen dosya ve dependency listesini logla
+
+
+
+Güvenlik Geçmişi Takibi
+
+Her dependency değişikliğinden önce ve sonra durum karşılaştırması
+Yeni eklenen güvenlik açıklarını özellikle vurgula
+Çözülen güvenlik sorunlarını da kaydet
