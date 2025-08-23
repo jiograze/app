@@ -1,0 +1,111 @@
+base_folder: C:\Users\klc\Documents\MevzuatDeposu
+app_version: 1.0.2
+user_id: klc
+creation_date: '2025-08-10 11:36:15'
+watch_enabled: true
+watch_raw_folder: C:\Users\klc\Documents\MevzuatDeposu/raw
+autoscan_interval_sec: 5
+watch_network_paths: true
+watch_health_check_min: 10
+max_file_size_mb: 50
+file_organization:
+  enabled: true
+  delete_original: true
+  create_year_folders: true
+  create_number_folders: true
+  folder_structure: hierarchical
+ocr:
+  enabled: false
+  tesseract_path: C:/Program Files/Tesseract-OCR/tesseract.exe
+  enable_layout_analysis: true
+  confidence_threshold: 75
+  lang: tur
+embedding:
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+  download_if_missing: true
+  batch_size: 32
+  low_memory_mode: false
+  large_archive_mode: false
+  cache_embeddings: true
+search:
+  semantic_enabled: true
+  max_results: 20
+  highlight_matches: true
+  include_repealed: false
+  cache_size: 100
+  semantic_weight: 0.4
+  keyword_weight: 0.6
+versioning:
+  fuzzy_title_threshold: 0.8
+  allow_duplicate_versions: false
+  auto_diff_on_new_version: true
+  store_diff_results: true
+exe:
+  first_run_check: false
+  create_default_structure: true
+  portable_mode: false
+  splash_screen: true
+  tray_icon: true
+backup:
+  auto_backup_enabled: true
+  full_backup_interval_days: 7
+  incremental_backup_interval_days: 1
+  keep_backups_count: 10
+  backup_on_exit: false
+  compress_backups: true
+preferences:
+  save_search_history: true
+  max_search_history: 50
+  theme: system
+  font_size: medium
+  layout: default
+  max_favorites: 100
+  save_window_position: true
+undo:
+  max_items: 20
+  include_file_operations: true
+  warn_on_complex_undo: true
+security:
+  scan_files_for_threats: true
+  verify_hash_on_import: true
+  password_protection: false
+  encrypt_user_notes: false
+  password_hash: ''
+logging:
+  level: INFO
+  rotate_size_mb: 5
+  keep_files: 5
+  detailed_stats: true
+  performance_logging: true
+  log_search_queries: true
+reporting:
+  enable_pdf_export: true
+  template_folder: C:\Users\klc\Documents\MevzuatDeposu/templates
+  default_logo_path: C:\Users\klc\Documents\MevzuatDeposu/config/logo.png
+  include_header_footer: true
+  default_font: DejaVuSans
+  company_name: ''
+rag:
+  enabled: true
+  max_chunks: 8
+  max_chunk_chars: 1200
+  model_type: local
+  local_model_path: C:\Users\klc\Documents\MevzuatDeposu/models/llm
+  api_key: ''
+  api_url: ''
+  prompt_template_path: C:\Users\klc\Documents\MevzuatDeposu/config/prompts/default.txt
+custom_fields:
+  enabled: true
+  max_categories: 50
+  max_notes_per_article: 20
+  rich_text_notes: true
+performance:
+  fts_pragma_optimize: true
+  sqlite_cache_size_mb: 64
+  sqlite_journal_mode: WAL
+  faiss_cache_mb: 128
+  threading:
+    max_worker_threads: 4
+    use_process_pool: false
+  cleanup_interval_hours: 24
+  temp_file_ttl_days: 7
