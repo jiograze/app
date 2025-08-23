@@ -1,0 +1,2 @@
+# app
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/18d3beff9b7c43288d140b8089b798f8)](https://app.codacy.com/gh/jiograze/app?utm_source=github.com&utm_medium=referral&utm_content=jiograze/app&utm_campaign=Badge_Grade)
